@@ -1,81 +1,86 @@
 * {
-  box-sizing: border-box;
-}
+   box-sizing: border-box;
+ }
+ 
+ body {
+   background-color: white;
+ }
+ 
+ .principal {
+   background-image: url("https://historiadelavida.azurewebsites.net/wp-content/uploads/2017/05/diseno-en-la-naturaleza-entrada.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
-body {
-  background-color: white;
 }
-
-.principal {
-  background-image: url("https://historiadelavida.azurewebsites.net/wp-content/uploads/2017/05/diseno-en-la-naturaleza-entrada.jpg");
-}
-.principal {
-  text-align: center;
-  min-height: 450px;
-  align-items: stretch;
-}
-
-.titulo {
-  font-family: "Pacifico", cursive;
-  font-size: 40px;
-  color: yellow;
-}
-a {
-  text-decoration: none;
-  font-size: 17px;
-  font-family: "Open Sans", sans-serif;
-  font-color: white;
-  color: inherit;
-  padding: 5px;
-  margin: auto;
-}
-
-.menu {
-  display: flex;
-  background-color: #7fc6a8;
-  justify-content: right;
-  padding: 40px;
-  height: 40px;
-  color: white;
-}
-
-.Barra:hover {
-  color: black;
-}
-#intro {
-  background-color: #ffffff;
-  text-align: center;
-}
-.central {
-  font-family: "Source Sans", Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 200;
-}
-.p1 {
-  font-family: "Pacifico";
-  font-size: 16px;
-  color: #015f65;
-  line-height: 6;
-}
-.imagenes img {
-  max-height: 50%;
-  max-width: 50%;
-  height: 200px;
-  width: 200px;
-  background-color: white;
-  margin-top: 30px;
-  border-radius: 25px;
-}
-.imagenes {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-evenly;
-  transition: all 0.2s ease-in;
-}
-img:hover {
-  opacity: 0.5;
-}
-#intro .central {
-  margin-top: 0;
-}
+ .principal {
+   text-align: center;
+   min-height: 350px;
+   margin-top: 0;
+   
+  
+ }
+ 
+ .titulo {
+   font-family: "Pacifico", cursive;
+   font-size: 40px;
+   color: yellow;
+ }
+ a {
+   text-decoration: none;
+   font-size: 17px;
+   font-family: "Open Sans", sans-serif;
+   font-color: white;
+   color: inherit;
+   padding: 5px;
+   margin: auto;
+ }
+ 
+ .menu {
+   display: flex;
+   background-color: #7fc6a8;
+   justify-content: right;
+   padding: 40px;
+   height: 40px;
+   color: white;
+ }
+ 
+ .Barra:hover {
+   color: black;
+ }
+ #intro {
+   background-color: #ffffff;
+   text-align: center;
+ }
+ .central {
+   font-family: "Source Sans", Helvetica, sans-serif;
+   font-size: 14px;
+   font-weight: 200;
+ }
+ .p1 {
+   font-family: "Pacifico";
+   font-size: 16px;
+   color: #015f65;
+   line-height: 6;
+ }
+ .imagenes img {
+   max-height: 50%;
+   max-width: 50%;
+   height: 200px;
+   width: 200px;
+   background-color: white;
+   margin-top: 30px;
+   border-radius: 25px;
+ }
+ .imagenes {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: space-evenly;
+   transition: all 0.2s ease-in;
+ }
+ img:hover {
+   opacity: 0.5;
+ }
+ #intro .central {
+   margin-top: 0;
+ }
